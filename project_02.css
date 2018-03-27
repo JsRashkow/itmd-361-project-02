@@ -6,15 +6,12 @@ body
   width: 1135px;
 }
 
-
-
 #banner
 {
-	padding: 0;
-	height: 210px;
-	width: 1135px;
+  padding: 0;
+  height: 210px;
+  width: 1135px;
 }
-
 
 #banner img
 {
@@ -40,6 +37,16 @@ body
 {
   display: inline;
   font-size: 30px;
+}
+
+#nav ul li:hover
+{
+  background-color: black;
+}
+
+#nav ul li a:hover
+{
+  color: white;
 }
 
 #nav ul li a
@@ -81,22 +88,22 @@ section
 
 #resume_education h3, #resume_experience h3, #resume_skills h3, #resume_activities h3, #resume_references h3
 {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 #resume_education p, #resume_experience p, #resume_skills p, #resume_activities p, #resume_references p
 {
-	padding-left: 40px;
+  padding-left: 40px;
 }
 
 #resume_education ul, #resume_experience ul, #resume_skills ul, #resume_activities ul, #resume_references ul
 {
-	padding-left: 60px;
+  padding-left: 60px;
 }
 
 #resume_references
 {
-	border-radius: 0px 0px 25px 25px;
+  border-radius: 0px 0px 25px 25px;
 }
 
 #aboutme_sec_1
@@ -106,10 +113,10 @@ section
 
 #aboutme_sec_1 img
 {
-	padding-top: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #aboutme_sec_1 h1
