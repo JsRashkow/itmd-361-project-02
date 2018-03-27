@@ -13,16 +13,16 @@ header, section, #nav
  overflow: auto;
 }
 
+#banner
+{
+	height: 210px;
+}
+
+
 #banner img
 {
   border-radius: 25px 25px 0px 0px;
   margin: 0;
-}
-
-#nav
-{
-	height: 39px;
-	width: 1135px;
 }
 
 #nav ul
