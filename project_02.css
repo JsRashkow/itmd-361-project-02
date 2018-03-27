@@ -36,13 +36,14 @@ body
 #nav ul li
 {
   height: 50px;
-  padding: 0px 125px 0px 125px;
   display: inline;
   font-size: 30px;
 }
 
 #nav ul li:hover
 {
+  width: 250px;
+  height: 35px;
   background-color: white;
 }
 
