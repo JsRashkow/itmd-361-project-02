@@ -25,41 +25,49 @@ body
 #nav ul
 {
   background: gray;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
+  overflow: hidden;
 }
 
 #nav ul li
 {
-  display: inline;
-  border: 2px;
-  border-color: black;
+  float:left;
   font-size: 30px;
 }
 
 #nav ul li a
 {
-  display: block;
   color: black;
+  text-align: center;
   text-decoration: none;
+  padding-left: 98px;
+  padding-right: 101px;
+}
+
+#nav ul li a:last-of-type
+{
+  padding-right: 103px;
 }
 
 #nav ul li:hover
 {
   background: black;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 #nav ul li a:hover
 {
   background-color: black;
   color: white;
+}
+
+#nav li {
+    border-right: 1px solid #bbb;
+}
+
+#nav li:last-child {
+    border-right: none;
 }
 
 section
