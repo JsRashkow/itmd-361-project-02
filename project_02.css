@@ -3,14 +3,14 @@ body
   background-image: url("images/page_background.jpg");
   margin-left: auto;
   margin-right: auto;
-  width: 1135px;
+  width: 900px;
 }
 
 #banner
 {
-  padding: 0;
+  margin-top: 50px;
   height: 210px;
-  width: 1135px;
+  width: 900px;
 }
 
 #banner img
@@ -18,7 +18,7 @@ body
   padding: 0;
   border-radius: 25px 25px 0px 0px;
   height: 210px;
-  width: 1135px;
+  width: 900px;
   margin: 0;
 }
 
@@ -105,6 +105,12 @@ section
 {
   border-radius: 0px 0px 25px 25px;
 }
+
+#index_sec_1
+{
+  margin-bottom: 50px;
+} 
+
 
 #aboutme_sec_1
 {
