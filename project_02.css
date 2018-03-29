@@ -39,7 +39,7 @@ body
 
 #nav ul li a
 {
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   padding-left: 98px;
@@ -59,7 +59,6 @@ body
 #nav ul li a:hover
 {
   background-color: black;
-  color: white;
 }
 
 #nav li {
@@ -68,6 +67,14 @@ body
 
 #nav li:last-child {
     border-right: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: black;
 }
 
 section
