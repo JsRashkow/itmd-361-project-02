@@ -1,3 +1,5 @@
+
+/*Body Styles*/
 body
 {
   background-image: url("images/page_background.jpg");
@@ -6,6 +8,7 @@ body
   width: 900px;
 }
 
+/*Banner Styles*/
 #banner
 {
   box-sizing: border-box;
@@ -21,19 +24,21 @@ body
 
 #banner h1
 {
+  padding-top: 40px;
   font-size: 40px;
-  padding-left: 10px;
+  padding-left: 15px;
   margin: 0;
 }
 
 #banner h3
 {
   font-size: 30px;
-  padding-left: 25px;
+  padding-left: 50px;
   padding-top: 0px;
   margin: 0;
 }
 
+/*Navigation Styles*/
 #nav ul
 {
   background: gray;
@@ -90,6 +95,7 @@ li a:hover:not(.active) {
     background-color: black;
 }
 
+/*Section Styles*/
 section
 {
   box-sizing: border-box;
@@ -103,45 +109,6 @@ section
   width: 900px;
 }
 
-#index_sec_1 h1
-{
-  font-size: 30px;
-  text-align: center;
-}
-
-#index_sec_1 p
-{
-  font-size: 16px;
-  text-align: left;
-  padding-left: 15px;
-}
-
-#resume_education, #resume_experience, #resume_skills, #resume_activities, #resume_references
-{
-  padding-left: 25px;
-}
-
-#resume_education, #resume_experience, #resume_skills, #resume_activities, #resume_references
-{
-  padding-left: 25px;
-}
-
-#resume_education h3, #resume_experience h3, #resume_skills h3, #resume_activities h3, #resume_references h3
-{
-  padding-left: 20px;
-}
-
-#resume_education p, #resume_experience p, #resume_skills p, #resume_activities p, #resume_references p
-{
-  padding-left: 40px;
-}
-
-#resume_education ul, #resume_experience ul, #resume_skills ul, #resume_activities ul, #resume_references ul
-{
-  padding-left: 60px;
-}
-
-
 section:last-of-type
 {
   border-radius: 0px 0px 25px 25px;
@@ -149,13 +116,26 @@ section:last-of-type
   border-bottom: 4px solid gray;
 } 
 
-
-#aboutme_sec_1 img
+#resume_education, #resume_experience, #resume_skills, #resume_activities, #resume_references
 {
-  padding-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 25px;
+}
+
+#resume_education, #resume_experience, #resume_skills, #resume_activities, #resume_references
+{
+  padding-left: 25px;
+}
+
+/*Heading Styles*/
+#resume_education h3, #resume_experience h3, #resume_skills h3, #resume_activities h3, #resume_references h3
+{
+  padding-left: 20px;
+}
+
+#index_sec_1 h1
+{
+  font-size: 30px;
+  text-align: center;
 }
 
 #aboutme_sec_1 h1
@@ -164,11 +144,40 @@ section:last-of-type
   text-align: center;
 }
 
+/*Paragraph Styles*/
+#index_sec_1 p
+{
+  font-size: 16px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#resume_education p, #resume_experience p, #resume_skills p, #resume_activities p, #resume_references p
+{
+  padding-left: 40px;
+}
+
+/*List Styles*/
+#resume_education ul, #resume_experience ul, #resume_skills ul, #resume_activities ul, #resume_references ul
+{
+  padding-left: 60px;
+}
+
 #aboutme_sec_1 ul li
 {
   padding-left: 25px;
 }
 
+/*Image Styles*/
+#aboutme_sec_1 img
+{
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Video Link Styles*/
 iframe 
 {
   border: none;
