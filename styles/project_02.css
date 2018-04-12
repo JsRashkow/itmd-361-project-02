@@ -72,19 +72,19 @@ body {
 }
 
 #nav li {
-    border-right: 1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 #nav li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    background-color: black;
+  background-color: black;
 }
 
 /*Section Styles*/
