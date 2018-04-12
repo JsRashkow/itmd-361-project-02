@@ -120,14 +120,18 @@ section:last-of-type {
   padding-left: 20px;
 }
 
-#index_sec_1 h1 {
+#index_sec_1 h2 {
   font-size: 30px;
   text-align: center;
 }
 
-#aboutme_sec_1 h1 {
+#aboutme_sec_1 h2 {
   font-size: 30px;
   text-align: center;
+}
+
+#aboutme_sec_1 {
+	padding-right: 8px;
 }
 
 /*Paragraph Styles*/
@@ -147,6 +151,7 @@ section:last-of-type {
 }
 
 #aboutme_sec_1 ul li {
+  list-style-type: none;
   padding-left: 25px;
 }
 
@@ -154,8 +159,10 @@ section:last-of-type {
 #aboutme_sec_1 img {
   padding-top: 25px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 /*Video Link Styles*/
