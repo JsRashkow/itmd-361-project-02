@@ -3,6 +3,7 @@
 body {
   background-image: url("../images/page_background.jpg");
   background-attachment: fixed;
+  font-family: Arial Black;
   display: block;
   margin: 0 auto;
   width: 900px;
@@ -55,12 +56,12 @@ body {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding-left: 98px;
-  padding-right: 102px;
+  padding-left: 86px;
+  padding-right: 86px;
 }
 
 #nav ul li a:last-of-type {
-  padding-right: 103px;
+  padding-right: 86px;
 }
 
 #nav ul li:hover {
